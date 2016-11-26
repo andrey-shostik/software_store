@@ -1,0 +1,22 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: software_store_development
+
+test:
+  <<: *default
+  database: software_store_test
+
+production:
+  <<: *default
+  database: software_store_production
+  username: software_store
+  password: <%= ENV['SOFTWARE_STORE_DATABASE_PASSWORD'] %>
+
+# .secrets.sh - Create secrets file in root path of project
+# export SOFTWARE_STORE_DATABASE_PASSWORD=password
+# cd ../software_store && source .secrets.sh
