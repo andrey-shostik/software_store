@@ -13,6 +13,8 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'slim-rails', '~> 3.1', '>= 3.1.1'
 gem 'foundation-rails', '~> 6.2', '>= 6.2.4.0'
+gem 'bcrypt', '~> 3.1', '>= 3.1.11'
+gem 'has_secure_token', '~> 1.0'
 
 group :development, :test do
   gem 'factory_girl_rails'
