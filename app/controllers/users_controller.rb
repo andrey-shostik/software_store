@@ -7,10 +7,10 @@ class UsersController < ApplicationController
     @user = User.new(user_params)
     if @user.save
       session[:current_user_id] = @user.token
-      flash[:success] = 'Successfully created'
+      flash[:success] = 'User successfully created'
       redirect_to root_path
     else
-      flash[:error] = 'Invalid parametrs'
+      flash[:error] = 'Invalid parameters'
       render :new
     end
   end
