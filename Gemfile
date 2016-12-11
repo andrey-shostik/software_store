@@ -12,7 +12,10 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'slim-rails', '~> 3.1', '>= 3.1.1'
-gem 'foundation-rails', '~> 6.2', '>= 6.2.4.0'
+gem 'bcrypt', '~> 3.1', '>= 3.1.11'
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+gem 'better_errors', '~> 2.1', '>= 2.1.1	'
+gem 'has_secure_token', '~> 1.0'
 
 group :development, :test do
   gem 'factory_girl_rails'
@@ -21,6 +24,7 @@ group :development, :test do
   gem 'pry-rails', '~> 0.3.4'
   gem 'faker', '~> 1.6', '>= 1.6.6'
   gem 'rubocop', require: false
+  gem 'rails-controller-testing', '~> 1.0', '>= 1.0.1'
 end
 
 group	:test do
