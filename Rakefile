@@ -2,5 +2,6 @@
 # for example lib/tasks/capistrano.rake, and they will automatically be available to Rake.
 
 require_relative 'config/application'
+include 'rails_db_dump/tasks' rescue nil
 
 Rails.application.load_tasks

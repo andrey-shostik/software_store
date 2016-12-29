@@ -1,0 +1,26 @@
+.container
+  = link_to 'New Order', new_order_path, class: 'btn btn-default btn-block'
+  = link_to 'Back', dashboards_path, class: 'btn btn-default btn-block', id: 'top-mar'
+
+  .flash class='text-center' id='index-flash'
+    - if flash[:success]
+      .success
+        = flash[:success]
+
+  table class="table"
+    thead
+      tr
+        .text-center
+          th id
+          th User id
+          th Created At
+          th Updated At
+        tbody
+      - @orders.reverse_each do |order|
+          tr
+            td = order.id
+            td = link_to order.user_id, item_path(order.user_id)
+            td = order.created_at
+            td = order.updated_at
+            td = link_to 'Edit', edit_order_path(order)
+            td = link_to 'Delete', order_path(order), method: :delete

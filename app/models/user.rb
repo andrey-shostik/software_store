@@ -1,6 +1,8 @@
 class User < ApplicationRecord
-  has_secure_token
   has_secure_password
+
+  has_one  :cart, dependent: :destroy
+  has_many :orders, dependent: :destroy
 
   before_save { self.email = email.downcase }
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
@@ -12,4 +14,11 @@ class User < ApplicationRecord
 
   validates :password,
             length: { minimum: 6 }
+
+  validates :first_name, :last_name,
+            length: { minimum: 3 },
+            presence: true
+
+  validates :phone_number,
+            length: { in: 3..20 }
 end

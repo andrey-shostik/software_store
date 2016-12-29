@@ -1,0 +1,24 @@
+.container
+  = link_to 'New Position', new_position_path, class: 'btn btn-default btn-block'
+  = link_to 'Back', dashboards_path, class: 'btn btn-default btn-block', id: 'top-mar'
+
+  .flash class='text-center' id='index-flash'
+    - if flash[:success]
+      .success
+        = flash[:success]
+
+  table class="table"
+    thead
+      tr
+        .text-center
+          th id
+          th Cart id
+          th Item id
+        tbody
+      - @positions.reverse_each do |position|
+          tr
+            td = position.id
+            td = link_to position.cart_id, cart_path(position.cart_id)
+            td = link_to position.item_id, item_path(position.item_id)
+            td = link_to 'Edit', edit_position_path(position)
+            td = link_to 'Delete', position_path(position), method: :delete

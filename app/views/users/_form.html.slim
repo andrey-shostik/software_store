@@ -1,0 +1,48 @@
+= form_for @user, class: 'form-horizontal' do |form|
+    .col-sm-6
+      .form-horizontal
+        .form-group
+          .col-sm-10
+            = form.label "Email", class: 'control-label'
+            = form.email_field :email, class: 'form-control', placeholder: 'Email'
+
+        .form-group
+          .col-sm-10
+            = form.label "First Name", class: 'control-label'
+            = form.text_field :first_name, class: 'form-control', placeholder: 'First Name'
+
+        .form-group
+          .col-sm-10
+            = form.label "Last Name", class: 'control-label'
+            = form.text_field :last_name, class: 'form-control', placeholder: 'Last Name'
+
+        .form-group
+          .col-sm-10
+            = form.label "Phone Number", class: 'control-label'
+            = form.text_field :phone_number, class: 'form-control', placeholder: 'Phone Number'
+
+        .form-group
+          .col-sm-10
+            = form.label "City", class: 'control-label'
+            = form.text_field :city, class: 'form-control', placeholder: 'City'
+
+        .form-group
+          .col-sm-10
+            = form.label "Password", class: 'control-label'
+            = form.password_field :password, class: 'form-control', placeholder: 'Password'
+
+        .form-group
+          .col-sm-10
+            = form.label "Confirm password", class: 'control-label'
+            = form.password_field :password_confirmation, class: 'form-control', placeholder: 'Confirm password'
+
+        .form-group
+          .col-sm-10
+            = form.submit 'New User', class: 'btn btn-default'
+            div
+              = link_to 'Back to Users', users_path, class: 'btn btn-default top-mar'
+
+        .flash
+          - if flash[:error]
+            .error
+              = flash[:error]

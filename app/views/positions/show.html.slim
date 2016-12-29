@@ -1,0 +1,20 @@
+.container
+  = link_to "Back", :back
+
+  table class="table"
+    thead
+      tr
+        .text-center
+          th id
+          th Item id
+          th User id
+          th Items quantity
+        tbody
+          tr
+            td = @position.id
+            td = @position.item_id
+            td = @position.user_id
+            td = @position.created_at
+            td = @position.updated_at
+            td = link_to 'Edit', edit_position_path(@position)
+            td = link_to 'Delete', position_path(@position), method: :delete

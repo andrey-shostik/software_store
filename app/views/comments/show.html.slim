@@ -1,0 +1,21 @@
+.container
+  = link_to "Back", :back
+
+  table class="table"
+    thead
+      tr
+        .text-center
+          th id
+          th Body
+          th Item id
+          th Created At
+          th Updated At
+        tbody
+          tr
+            td = @comment.id
+            td = @comment.body
+            td = link_to @comment.item_id, item_path(@comment.item_id)
+            td = @comment.created_at
+            td = @comment.updated_at
+            td = link_to 'Edit', edit_comment_path(@comment)
+            td = link_to 'Delete', comment_path(@comment), method: :delete

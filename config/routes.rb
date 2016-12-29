@@ -1,6 +1,11 @@
 Rails.application.routes.draw do
-  root 'users#new'
+  root 'dashboards#index'
 
-  resource :user, only: [:new, :create]
-  resource :session, only: [:new, :create, :destroy]
+  resources :positions
+  resources :carts
+  resources :orders
+  resources :users
+  resources :comments
+  resources :items
+  resources :dashboards, only: [:index]
 end

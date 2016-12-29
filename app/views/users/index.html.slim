@@ -1,0 +1,34 @@
+.container
+  = link_to 'New User', new_user_path, class: 'btn btn-default btn-block'
+  = link_to 'Back', dashboards_path, class: 'btn btn-default btn-block', id: 'top-mar'
+
+  .flash class='text-center' id='index-flash'
+    - if flash[:success]
+      .success
+        = flash[:success]
+
+  table class="table"
+    thead
+      tr
+        .text-center
+          th id
+          th Email
+          th First Name
+          th Last Name
+          th Phone Number
+          th City
+          th Created At
+          th Updated At
+        tbody
+      - @users.reverse_each do |user|
+          tr
+            td = user.id
+            td = user.email
+            td = user.first_name
+            td = user.last_name
+            td = user.phone_number
+            td = user.city
+            td = user.created_at
+            td = user.updated_at
+            td = link_to 'Edit', edit_user_path(user)
+            td = link_to 'Delete', user_path(user), method: :delete

@@ -1,24 +1,6 @@
 # README
+.secrets.sh - Create secrets file in root path of project, where be your database password
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+git clone https://github.com/andrey-shostik/software_store && cd software_store/ && touch .secrets.sh echo "export SOFTWARE_STORE_DATABASE_PASSWORD=YOUR_PASSWORD" >> .secrets.sh && source .secrets.sh && rake db:drop && rake db:create && rake db:migrate && rails s
+```

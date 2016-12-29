@@ -1,0 +1,19 @@
+.container
+  = link_to "Back", :back
+
+  table class="table"
+    thead
+      tr
+        .text-center
+          th id
+          th User id
+          th Created At
+          th Updated At
+        tbody
+          tr
+            td = @cart.id
+            td = @cart.user_id
+            td = @cart.created_at
+            td = @cart.updated_at
+            td = link_to 'Edit', edit_cart_path(@cart)
+            td = link_to 'Delete', cart_path(@cart), method: :delete

@@ -1,0 +1,17 @@
+= form_for @cart, class: 'form-horizontal' do |form|
+    .col-sm-6
+      .form-horizontal
+        .form-group
+          .col-sm-10
+            = form.label "User id", class: 'control-label'
+            = form.text_field :user_id, class: 'form-control', placeholder: 'User id'
+
+          .col-sm-10
+            = form.submit 'New cart', class: 'btn btn-default'
+            div
+              = link_to 'Back to carts', carts_path, class: 'btn btn-default top-mar'
+
+        .flash
+          - if flash[:error]
+            .error
+              = flash[:error]

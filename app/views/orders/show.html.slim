@@ -1,0 +1,19 @@
+.container
+  = link_to "Back", :back
+
+  table class="table"
+    thead
+      tr
+        .text-center
+          th id
+          th User id
+          th Created At
+          th Updated At
+        tbody
+          tr
+            td = @order.id
+            td = @order.user_id
+            td = @order.created_at
+            td = @order.updated_at
+            td = link_to 'Edit', edit_order_path(@order)
+            td = link_to 'Delete', order_path(@order), method: :delete

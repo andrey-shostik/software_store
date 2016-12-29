@@ -1,0 +1,80 @@
+=> [[32m#<Item:0x00000001f69e00[0m
+  id: [1;34m1[0m,
+  name: [31m[1;31m"[0m[31mSonair[1;31m"[0m[31m[0m,
+  description:
+   [31m[1;31m"[0m[31m[[1;35m\"[0m[31mAut sed mollitia tenetur autem. Praesentium maxime voluptatum et. Voluptatibus molestiae incidunt voluptates aut. Labore ea laboriosam aut consequuntur in dicta. Quia voluptatum odio odit consequatur.[1;35m\"[0m[31m][1;31m"[0m[31m[0m,
+  price: [1;35m65.47[0m,
+  created_at: [1;34;4mMon[0m, [1;34m12[0m [1;34;4mDec[0m [1;34m2016[0m [1;34m16[0m:[1;34m25[0m:[1;34m26[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mMon[0m, [1;34m12[0m [1;34;4mDec[0m [1;34m2016[0m [1;34m16[0m:[1;34m25[0m:[1;34m26[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
+ [32m#<Item:0x00000001f697e8[0m
+  id: [1;34m2[0m,
+  name: [31m[1;31m"[0m[31mDuobam[1;31m"[0m[31m[0m,
+  description:
+   [31m[1;31m"[0m[31m[[1;35m\"[0m[31mOmnis quam et nam ut quo. Aut eum et quidem quo eligendi numquam asperiores. In quis cum soluta ut neque cumque ad. Numquam quae esse. Dolor voluptas vel blanditiis quia possimus ea.[1;35m\"[0m[31m][1;31m"[0m[31m[0m,
+  price: [1;35m23.67[0m,
+  created_at: [1;34;4mMon[0m, [1;34m12[0m [1;34;4mDec[0m [1;34m2016[0m [1;34m16[0m:[1;34m25[0m:[1;34m26[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mMon[0m, [1;34m12[0m [1;34;4mDec[0m [1;34m2016[0m [1;34m16[0m:[1;34m25[0m:[1;34m26[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
+ [32m#<Item:0x00000001f69478[0m
+  id: [1;34m3[0m,
+  name: [31m[1;31m"[0m[31mLotlux[1;31m"[0m[31m[0m,
+  description:
+   [31m[1;31m"[0m[31m[[1;35m\"[0m[31mEaque a soluta quia dolores. Modi mollitia reprehenderit aut repellat ut minus. Aliquid hic qui.[1;35m\"[0m[31m][1;31m"[0m[31m[0m,
+  price: [1;35m82.55[0m,
+  created_at: [1;34;4mMon[0m, [1;34m12[0m [1;34;4mDec[0m [1;34m2016[0m [1;34m16[0m:[1;34m25[0m:[1;34m26[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mMon[0m, [1;34m12[0m [1;34;4mDec[0m [1;34m2016[0m [1;34m16[0m:[1;34m25[0m:[1;34m26[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
+ [32m#<Item:0x00000001f68ff0[0m
+  id: [1;34m4[0m,
+  name: [31m[1;31m"[0m[31mLotstring[1;31m"[0m[31m[0m,
+  description:
+   [31m[1;31m"[0m[31m[[1;35m\"[0m[31mModi veritatis culpa voluptatum aut similique incidunt. Ipsa omnis voluptatibus. Repudiandae excepturi aut aliquid officiis earum. Soluta et architecto libero eos natus.[1;35m\"[0m[31m][1;31m"[0m[31m[0m,
+  price: [1;35m9.96[0m,
+  created_at: [1;34;4mMon[0m, [1;34m12[0m [1;34;4mDec[0m [1;34m2016[0m [1;34m16[0m:[1;34m25[0m:[1;34m27[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mMon[0m, [1;34m12[0m [1;34;4mDec[0m [1;34m2016[0m [1;34m16[0m:[1;34m25[0m:[1;34m27[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
+ [32m#<Item:0x00000001f68d20[0m
+  id: [1;34m5[0m,
+  name: [31m[1;31m"[0m[31mLotlux[1;31m"[0m[31m[0m,
+  description:
+   [31m[1;31m"[0m[31m[[1;35m\"[0m[31mTemporibus omnis laborum ab cum ducimus. Fugiat sed quae. Ipsam ipsum ad doloribus aut sequi.[1;35m\"[0m[31m][1;31m"[0m[31m[0m,
+  price: [1;35m96.12[0m,
+  created_at: [1;34;4mMon[0m, [1;34m12[0m [1;34;4mDec[0m [1;34m2016[0m [1;34m16[0m:[1;34m25[0m:[1;34m27[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mMon[0m, [1;34m12[0m [1;34;4mDec[0m [1;34m2016[0m [1;34m16[0m:[1;34m25[0m:[1;34m27[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
+ [32m#<Item:0x00000001f68758[0m
+  id: [1;34m6[0m,
+  name: [31m[1;31m"[0m[31mY-find[1;31m"[0m[31m[0m,
+  description:
+   [31m[1;31m"[0m[31m[[1;35m\"[0m[31mIn voluptas quae dolor quia error id ut. Nam velit sint sint non est accusantium. Ut voluptatem sit alias eos quo neque et.[1;35m\"[0m[31m][1;31m"[0m[31m[0m,
+  price: [1;35m25.04[0m,
+  created_at: [1;34;4mMon[0m, [1;34m12[0m [1;34;4mDec[0m [1;34m2016[0m [1;34m16[0m:[1;34m25[0m:[1;34m27[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mMon[0m, [1;34m12[0m [1;34;4mDec[0m [1;34m2016[0m [1;34m16[0m:[1;34m25[0m:[1;34m27[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
+ [32m#<Item:0x00000001f5bb98[0m
+  id: [1;34m7[0m,
+  name: [31m[1;31m"[0m[31mSub-Ex[1;31m"[0m[31m[0m,
+  description:
+   [31m[1;31m"[0m[31m[[1;35m\"[0m[31mReprehenderit qui quo nulla ut. Voluptatum voluptate nihil ut ut aut ut esse. At error aut natus velit maxime. Aut quod dolorem officiis qui. Eius optio voluptatem fugit est culpa.[1;35m\"[0m[31m][1;31m"[0m[31m[0m,
+  price: [1;35m88.38[0m,
+  created_at: [1;34;4mMon[0m, [1;34m12[0m [1;34;4mDec[0m [1;34m2016[0m [1;34m16[0m:[1;34m25[0m:[1;34m27[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mMon[0m, [1;34m12[0m [1;34;4mDec[0m [1;34m2016[0m [1;34m16[0m:[1;34m25[0m:[1;34m27[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
+ [32m#<Item:0x00000001f5b968[0m
+  id: [1;34m8[0m,
+  name: [31m[1;31m"[0m[31mCookley[1;31m"[0m[31m[0m,
+  description:
+   [31m[1;31m"[0m[31m[[1;35m\"[0m[31mOptio iusto recusandae voluptate sint. Nihil molestias sed in qui dolore et. Fugiat non corporis officia. Labore ex natus omnis cumque. Impedit velit ad.[1;35m\"[0m[31m][1;31m"[0m[31m[0m,
+  price: [1;35m88.13[0m,
+  created_at: [1;34;4mMon[0m, [1;34m12[0m [1;34;4mDec[0m [1;34m2016[0m [1;34m16[0m:[1;34m25[0m:[1;34m27[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mMon[0m, [1;34m12[0m [1;34;4mDec[0m [1;34m2016[0m [1;34m16[0m:[1;34m25[0m:[1;34m27[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
+ [32m#<Item:0x00000001f5b530[0m
+  id: [1;34m9[0m,
+  name: [31m[1;31m"[0m[31mProdder[1;31m"[0m[31m[0m,
+  description:
+   [31m[1;31m"[0m[31m[[1;35m\"[0m[31mExpedita aut possimus quia ex rem recusandae. Beatae voluptatibus quam enim quo. Ipsum et nisi iure quibusdam sunt.[1;35m\"[0m[31m][1;31m"[0m[31m[0m,
+  price: [1;35m95.45[0m,
+  created_at: [1;34;4mMon[0m, [1;34m12[0m [1;34;4mDec[0m [1;34m2016[0m [1;34m16[0m:[1;34m25[0m:[1;34m27[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mMon[0m, [1;34m12[0m [1;34;4mDec[0m [1;34m2016[0m [1;34m16[0m:[1;34m25[0m:[1;34m27[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
+ [32m#<Item:0x00000001f5b3c8[0m
+  id: [1;34m10[0m,
+  name: [31m[1;31m"[0m[31mLotstring[1;31m"[0m[31m[0m,
+  description:
+   [31m[1;31m"[0m[31m[[1;35m\"[0m[31mImpedit quasi non nobis aut ea. Minima aut quidem. Non dignissimos tempore molestiae. Et fugit omnis quia.[1;35m\"[0m[31m][1;31m"[0m[31m[0m,
+  price: [1;35m68.72[0m,
+  created_at: [1;34;4mMon[0m, [1;34m12[0m [1;34;4mDec[0m [1;34m2016[0m [1;34m16[0m:[1;34m25[0m:[1;34m27[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mMon[0m, [1;34m12[0m [1;34;4mDec[0m [1;34m2016[0m [1;34m16[0m:[1;34m25[0m:[1;34m27[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m]

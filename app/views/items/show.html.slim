@@ -1,0 +1,23 @@
+.container
+  = link_to "Back", :back
+
+  table class="table"
+    thead
+      tr
+        .text-center
+          th id
+          th Name
+          th Description
+          th Price
+          th Created At
+          th Updated At
+        tbody
+          tr
+            td = @item.id
+            td = @item.name
+            td = @item.description
+            td = @item.price
+            td = @item.created_at
+            td = @item.updated_at
+            td = link_to 'Edit', edit_item_path(@item)
+            td = link_to 'Delete', item_path(@item), method: :delete

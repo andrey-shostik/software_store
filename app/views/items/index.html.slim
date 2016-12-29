@@ -1,0 +1,30 @@
+.container
+  = link_to 'New Item', new_item_path, class: 'btn btn-default btn-block'
+  = link_to 'Back', dashboards_path, class: 'btn btn-default btn-block', id: 'top-mar'
+
+  .flash class='text-center' id='index-flash'
+    - if flash[:success]
+      .success
+        = flash[:success]
+
+  table class="table"
+    thead
+      tr
+        .text-center
+          th id
+          th Name
+          th Description
+          th Price
+          th Created At
+          th Updated At
+        tbody
+      - @items.reverse_each do |item|
+          tr
+            td = item.id
+            td = item.name
+            td = item.description
+            td = item.price
+            td = item.created_at
+            td = item.updated_at
+            td = link_to 'Edit', edit_item_path(item)
+            td = link_to 'Delete', item_path(item), method: :delete

@@ -16,6 +16,9 @@ gem 'bcrypt', '~> 3.1', '>= 3.1.11'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'better_errors', '~> 2.1', '>= 2.1.1	'
 gem 'has_secure_token', '~> 1.0'
+gem 'rails-erd', '~> 1.5'
+gem 'seed_dump'
+gem 'rails_db_dump'
 
 group :development, :test do
   gem 'factory_girl_rails'

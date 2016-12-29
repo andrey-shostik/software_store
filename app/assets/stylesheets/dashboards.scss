@@ -1,0 +1,25 @@
+// Place all the styles related to the dashboards controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+.main-text {
+  font-size: 56px;
+  text-align: center;
+  font-family: 'Space Mono', monospace;
+  color: white;
+}
+
+
+#list-text {
+  font-size: 32px;
+  text-align: center;
+  font-family: 'Space Mono', monospace;
+  color: white;
+}
+
+.dashboard-text {
+  position: absolute;
+  left: 280px;
+  top: 120px;
+}

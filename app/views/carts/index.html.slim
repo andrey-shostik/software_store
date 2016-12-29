@@ -1,0 +1,26 @@
+.container
+  = link_to 'New Cart', new_cart_path, class: 'btn btn-default btn-block'
+  = link_to 'Back', dashboards_path, class: 'btn btn-default btn-block', id: 'top-mar'
+
+  .flash class='text-center' id='index-flash'
+    - if flash[:success]
+      .success
+        = flash[:success]
+
+  table class="table"
+    thead
+      tr
+        .text-center
+          th id
+          th User id
+          th Created At
+          th Updated At
+        tbody
+      - @carts.reverse_each do |cart|
+          tr
+            td = cart.id
+            td = link_to cart.user_id, user_path(cart.user_id)
+            td = cart.created_at
+            td = cart.updated_at
+            td = link_to 'Edit', edit_cart_path(cart)
+            td = link_to 'Delete', cart_path(cart), method: :delete

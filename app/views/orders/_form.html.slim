@@ -1,0 +1,23 @@
+= form_for @order, class: 'form-horizontal' do |form|
+    .col-sm-6
+      .form-horizontal
+        .form-group
+          .col-sm-10
+            = form.label "Body", class: 'control-label'
+            = form.text_field :body, class: 'form-control', placeholder: 'Body'
+
+        .form-group
+          .col-sm-10
+            = form.label "Item id", class: 'control-label'
+            = form.text_field :item_id, class: 'form-control', placeholder: 'Item id'
+
+        .form-group
+          .col-sm-10
+            = form.submit 'New order', class: 'btn btn-default'
+            div
+              = link_to 'Back to orders', orders_path, class: 'btn btn-default top-mar'
+
+        .flash
+          - if flash[:error]
+            .error
+              = flash[:error]
